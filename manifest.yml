@@ -1,0 +1,12 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: Node-Red-RNS-App
+  host: Node-Red-RNS-App
+  disk_quota: 1024M
+  services:
+  - Node-Red-RNS-App-cloudantNoSQLDB
+  - Language Translator-1m
+  - Conversation-2c
